@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+  background-color: #01000c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 4rem;
+}
+
+.swiper-slide {
+  -webkit-box-reflect: below -0.5rem linear-gradient(transparent, transparent, #ffffff33, #ffffff55);
+}
+
+.swiper-scrollbar {
+  display: none;
+}
+
+.swiper {
+  min-height: 50vh;
+  max-width: 600px;
+}
